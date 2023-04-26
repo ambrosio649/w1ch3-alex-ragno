@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Lista de compra</title>
 </head>
 
@@ -12,8 +13,30 @@
   <header>
     <h1>Lista de la compra</h1>
   </header>
+  <section class="section1">
+    <button class="button1">-</button>
+    <p>2/3</p>
+  </section>
 
-  <main></main>
+  <main>
+    <h2>Añadir articulo</h2>
+    <form>
+      <ul>
+        <li><label for="name">
+            <p>Nombre:</p>
+            <input type="text" id="name">
+          </label></li>
+        <li><label for="price">
+            <p>Precio:</p>
+            <input type="text" id="price"> €
+          </label></li>
+        <li>
+          <input type="submit" class="submit-button">
+        </li>
+      </ul>
+    </form>
+
+  </main>
 
 </body>
 
