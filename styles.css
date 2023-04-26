@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  height: 100%;
+  background-color: rgb(228, 172, 29);
+}
+
+h1 {
+  margin: 0px;
+  padding: 15px;
+}
+
+header {
+  background-color: rgb(73, 150, 124);
+  text-align: center;
+}
+
+h2 {
+  margin: 0px;
+  padding: 20px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(102, 188, 159);
+}
+
+.button1 {
+  border-radius: 10px;
+  height: 50%;
+  align-self: center;
+}
+
+ul {
+  padding: 0px;
+  margin: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.submit-button {
+  margin-top: 20px;
+}
